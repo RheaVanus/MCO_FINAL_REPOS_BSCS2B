@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="rsc/css/bootstrap.min.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Herbal Tea Shop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: white;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid #ccc;
+        }
+
+        .hero {
+            display: flex;
+            padding: 30px;
+            background-color: #ddd;
+        }
+
+        .hero-text {
+            padding-left: 20px;
+        }
+
+        .categories, .latest, .subscribe-section {
+            text-align: center;
+            padding: 30px;
+            background-color: white;
+            margin-top: 20px;
+        }
+
+        .category-boxes, .product-boxes, .steps {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .box, .product, .step {
+            background-color: #e6e6e6;
+            padding: 20px;
+            width: 200px;
+            border-radius: 5px;
+        }
+
+        .product img, .box img {
+            width: 100%;
+            height: 100px;
+            background-color: #bdbdbd;
+            display: block;
+        }
+
+        button {
+            margin-top: 10px;
+            padding: 10px 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .navigation {
+            background-color: #555;
+            color: white;
+            padding: 20px;
+        }
+
+        .nav-columns {
+            display: flex;
+            justify-content: space-around;
+        }
+    </style>
+</head>
+
+<body>
+
+<header class="container-fluid border border-bottom border-bottom-3 py-2 fixed-top bg-light">
+  <div class="container d-flex justify-content-between align-items-center">
+    <div class="h5 mb-0 fw-bolder">Hip Hop</div>
+    <div class="d-flex align-items-center small text-end">
+      <div class="me-3">Welcome Gilbert!</div>
+      <img src="LORENZANAG_media/profile.jpg" alt="" class="rounded-circle me-2" style="width:40px;height:40px;object-fit:cover;">
+    </div>
+  </div>
+</header>
+
+<div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="LORENZANAG_media/MCO-HEADER-1.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Hip-hop</h5>
+        <p>Hip hop is an urban cultural movement and a music genre that originated in the South Bronx,
+            New York City, in the 1970s.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="LORENZANAG_media/MCO-HEADER-2.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Hip-Hop</h5>
+        <p>It is defined by four main elements: emceeing (rapping), DJing (using turntables), 
+            B-boying (breakdancing), and graffiti art. </p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="LORENZANAG_media/MCO-HEADER-3.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Hip-Hop</h5>
+        <p>The music genre itself typically involves rapping over a rhythmic beat, 
+            while the broader culture includes a distinct style of dance, graffiti, and other forms of expression. </p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<section class="categories">
+    <div class="category-boxes">
+        <div class="box">Hip hop originated in the Bronx, New York City, during the early 1970s at block parties, 
+            evolving from a subculture with four key elements DJing, MCing (rapping), breakdancing, and graffiti art.</div>
+        <div class="box">Pioneering DJs like DJ Kool Herc extended percussive breaks to create a continuous danceable rhythm.</div>
+        <div class="box">The culture became a global movement and a powerful tool for social commentary and expression,
+            moving from its roots in marginalized communities to the mainstream.</div>
+    </div>
+</section>
+
+<section class="latest">
+    <h2>Examples of Hip-Hop Dances</h2>
+    <p>Browse our newest Hip-Hop Dance</p>
+
+    <div class="product-boxes">
+        <div class="product">
+            <img src="LORENZANAG_media/Breaking Dance1.jpg">
+            <h3>Breaking</h3>
+            <p>Breaking, or breakdancing, is an energetic, 
+                acrobatic hip hop dance style that originated in the Bronx, New York, in the 1970s.</p>
+        </div>
+
+        <div class="product">
+            <img src="LORENZANAG_media/Locking Dance2.jpg">
+            <h3>Locking</h3>
+            <p>Locking is a funk dance style characterized by quickly freezing or 
+                "locking" in place during a dance movement, holding the position for a brief moment, and then continuing with the same speed.</p>
+        </div>
+
+        <div class="product">
+            <img src="LORENZANAG_media/Popping Dance3.jpg">
+            <h3>Popping</h3>
+            <p>Popping is a style of hip-hop dance that involves quickly contracting and 
+                relaxing muscles to create a sudden, jerking "pop" or "hit" in the body. </p>
+        </div>
+
+        <div class="product">
+            <img src="LORENZANAG_media/Funk Dance4.jpg">
+            <h3>Funk</h3>
+            <p>Funk dance refers to a group of street dance styles like popping, locking, and boogaloo.</p>
+        </div>
+
+        <div class="product">
+            <img src="LORENZANAG_media/Stepping Dance5.jpg">
+            <h3>Stepping</h3>
+            <p>Stepping involves extensive and highly syncopated clapping, slapping of hands against various 
+                parts of the body, and, of course, the foot stomping</p>
+        </div>
+
+        <div class="product">
+            <img src="LORENZANAG_media/Lyrical Dance6.jpg">
+            <h3>Lyrical</h3>
+            <p>Lyrical in hip hop is a fusion style that blends hip hop's foundational movements 
+                with the emotional storytelling and fluidity of lyrical dance.</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    Developed by: Gilbert L.Lorenzana
+</footer>
+
+<footer class="py-3 my-4 text-white" style="background-color: gray;">
+  <div class="container">
+    <h1 class="text-center my-5">Explore More</h1>
+      <div class="col-12 my-5 gap-2">
+        <div class="d-flex flex-wrap justify-content-center gap-2">
+          <a class="btn btn-outline-light btn-sm" href="../../../ACOSTA_RL/ACOSTAR fin/MCO Finals/ACOSTAR_index.html">ACOSTA_RL</a>
+          <a class="btn btn-outline-light btn-sm" href="../../../ALMODOVAR_K/MCO Finals_Kobe/ALMODOVAR_index.html">ALMODOVAR_K</a>
+          <a class="btn btn-outline-light btn-sm" href="../../../ANTOLIN_H/MCO Finals/ANTOLINH_index.html">ANTOLIN_H</a>
+          <a class="btn btn-outline-light btn-sm" href="../../../APOLONIO_JJ/MCO Finals/APOLONIOQ_index.html">APOLONIO_JJ</a>
+          <a class="btn btn-outline-light btn-sm" href="../../../ARQUERO_L/Arquero_Mco_Final/ARQUEROL_index.html">ARQUERO_L</a>
+          <a class="btn btn-outline-light btn-sm" href="../../../BAL-UT_J/MCO Finals_Jetro/BAL_UT_index.html">BAL-UT_J</a>
+          <a class="btn btn-outline-light btn-sm" href="../../../BATAO-EY_D/MCO Finals_Dale/BATAO-EY_index.html">BATAO-EY_D</a>
+          <a class="btn btn-outline-light btn-sm" href="../../../BELEN_M/MCO Finals/BELENM_index.html">BELEN_M</a>
+          <a class="btn btn-outline-light btn-sm" href="../../../BERMUDEZ_JH/BERMUDEZ_JH_MCO_FINAL/BERMUDEZJH_index.html">BERMUDEZ_JH</a>
+          <a class="btn btn-outline-light btn-sm" href="../../../CABEL_S/MCO Final/CABEL_index.html">CABEL_S</a>
+          <a class="btn btn-outline-light btn-sm" href="../../../CALVO_EJ/MCO_Finals_Calvo/CALVO_index.html">CALVO_EJ</a>
+          <a class="btn btn-outline-light btn-sm" href="../../../CORDOVA_J/McoFin_Cordova/CORDOVAJ_index.html">CORDOVA_J</a>
+          <a class="btn btn-outline-light btn-sm" href="../../../CORPUZ_C/CORPUZ_MCO_Finals/CORPUZ_index.html">CORPUZ_C</a>
+          <a class="btn btn-outline-light btn-sm" href="../../../DURAN_A/FEATURED WEB PAGE/DURANAC_index.html">DURAN_A</a>
+          <a class="btn btn-outline-light btn-sm" href="../../../GIRAY_J/MCO_FINAL/GIRAYJVindex.html">GIRAY_J</a>
+          <a class="btn btn-outline-light btn-sm" href="../../../HADUCA_PE/HADUCA_P_MCO_Fin/HADUCA_P_index.html">HADUCA_PE</a>
+          <a class="btn btn-outline-light btn-sm" href="../../../LASAN_S/LASANS_MCO_FINALS/LASAN_index.html">LASAN_S</a>
+          <a class="btn btn-outline-light btn-sm" href="../../../LORENZANA_G/LORENZANA_Mco_Finals/LORENZANA_index.html">LORENZANA_G</a>
+          <a class="btn btn-outline-light btn-sm" href="../../../MACABANGON_J/MCO Finals/MAMCABANGON_index.html">MACABANGON_J</a>
+          <a class="btn btn-outline-light btn-sm" href="../../../OCAMPO_NO/MCO Finals/OCAMPONO_index.html">OCAMPO_NO</a>
+          <a class="btn btn-outline-light btn-sm" href="../../../QUIZAAGAN_J/QUIZZAGANM_MCO_FINAL/QUIZZAGAN fin/MCO Finals/Quizzagan_index.html">QUIZAAGAN_J</a>
+          <a class="btn btn-outline-light btn-sm" href="../../../QUIZON_FR/QUIZONF_MCO_Finals/QUIZONF_index.html">QUIZON_FR</a>
+          <a class="btn btn-outline-light btn-sm" href="../../../RAMIREZ_D/MCO Finals Ramirez/index.html">RAMIREZ_D</a>
+          <a class="btn btn-outline-light btn-sm" href="../../../RAMIREZ_L/MCO FINALS/RAMIREZ_index.html">RAMIREZ_L</a>
+          <a class="btn btn-outline-light btn-sm" href="../../../RAMIREZ_JR/RAMIREZJ_MCO_FINALS/RAMIREZ_index.html">RAMIREZ_JR</a>
+          <a class="btn btn-outline-light btn-sm" href="../../../TALLAYO_P/TALLAYOP_MCO_Finals/TALLAYOPM_index.html">TALLAYO_P</a>
+          <a class="btn btn-outline-light btn-sm" href="../../../TUDAYAN_MF/TUDAYANMF_MCO_Finals/TUDAYANMF_index.html">TUDAYAN_MF</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="rsc/js/bootstrap.min.js"></script>
+</body>
+</html>

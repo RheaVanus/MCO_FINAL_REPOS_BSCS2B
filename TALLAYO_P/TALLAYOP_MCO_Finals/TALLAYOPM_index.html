@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Folk Dance Feature Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <style>
+        .hero-section {
+            position: relative;
+            height: 80vh;
+        }
+
+        .hero-section .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: lightslategray;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            max-width: 700px;
+        }
+
+        .category-card img {
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .featured-card img {
+            height: 250px;
+            object-fit: cover;
+        }
+
+        footer {
+            background-color: #000;
+            color: white;
+            padding: 20px 0;
+        }
+
+        .video-container {
+            position: relative;
+            width: 100%;
+            max-width: 1500px;
+            padding-bottom: 56.25%;
+            height: 0;
+        }
+
+        .video-container video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border-radius: 12px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <header class="bg-light py-3 shadow-sm">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="d-flex align-items-center">
+                <h1 class="h4 mb-0"><strong>FOLK DANCE</strong></h1>
+            </div>
+            <div class="d-flex align-items-center">
+                <span class="me-2"><strong>PROFILE </strong></span>
+                <img src="rsc/TALLAYOPM_media/img/minionspf.jpg"
+                    alt="Profile"
+                    class="rounded-circle"
+                    width="45" height="45"
+                    style="object-fit: cover;">
+            </div>
+        </div>
+    </header>
+
+    <section class="hero-section d-flex align-items-center justify-content-center text-center">
+        <div class="overlay"></div>
+        <div class="hero-content p-5 rounded shadow-lg bg-white">
+            <h1 class="display-5 fw-bold mb-3 text-dark">Folk Dance: Tradition in Motion</h1>
+            <p class="lead text-dark">
+                Folk dance is one of humanity’s earliest forms of expression, originating before written language to celebrate life and strengthen community bonds. It evolved from everyday activities into symbolic movements with cultural and spiritual significance, with different regions developing unique traditions around the world. In the Philippines, folk dances combined indigenous customs with Spanish, Chinese, and Islamic influences, and today they continue to thrive in schools and festivals, keeping heritage alive and connecting communities.
+            </p>
+        </div>
+    </section>
+
+    <section class="py-5">
+        <div class="container">
+            <h3 class="mb-4"><strong>Popular Folk Dances</strong></h3>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card category-card">
+                        <img src="rsc/TALLAYOPM_media/img/tinikling1.jpg" class="card-img-top" alt="Tinikling">
+                        <div class="card-body">
+                            <h5 class="card-title">Tinikling</h5>
+                            <p class="card-text">Origin: Leyte, Philippines. Tinikling is a traditional dance involving two people beating, tapping, and sliding bamboo poles while dancers step over and in between them.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card category-card">
+                        <img src="rsc/TALLAYOPM_media/img/itikitik.jpg" class="card-img-top" alt="Itik-Itik">
+                        <div class="card-body">
+                            <h5 class="card-title">Itik-Itik</h5>
+                            <p class="card-text">Origin: Surigao, Philippines. Inspired by duck movements, Itik-Itik mimics the walking and waddling motion of ducks, performed during festive occasions.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card category-card">
+                        <img src="rsc/TALLAYOPM_media/img/maglalatik.jpg" class="card-img-top" alt="Maglalatik">
+                        <div class="card-body">
+                            <h5 class="card-title">Maglalatik</h5>
+                            <p class="card-text">Origin: Laguna, Philippines. This dance depicts a fight over coconut meat, with dancers wearing coconut shells as part of the rhythm and steps.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card category-card">
+                        <img src="rsc/TALLAYOPM_media/img/kuratsa.jpg" class="card-img-top" alt="Kuratsa">
+                        <div class="card-body">
+                            <h5 class="card-title">Kuratsa</h5>
+                            <p class="card-text">Origin: Visayas, Philippines. Kuratsa is a courtship dance performed during celebrations, featuring lively music and flirtatious movements.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card category-card">
+                        <img src="rsc/TALLAYOPM_media/img/binasuan.jpg" class="card-img-top" alt="Binasuan">
+                        <div class="card-body">
+                            <h5 class="card-title">Binasuan</h5>
+                            <p class="card-text">Origin: Pangasinan, Philippines. Binasuan showcases dancers balancing full glasses of rice wine on their heads and hands while performing intricate steps.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card category-card">
+                        <img src="rsc/TALLAYOPM_media/img/singkil.jpg" class="card-img-top" alt="Singkil">
+                        <div class="card-body">
+                            <h5 class="card-title">Singkil</h5>
+                            <p class="card-text">Origin: Mindanao, Philippines. Singkil is a royal dance narrating a legend, where dancers skillfully step between clashing bamboo poles, representing a dramatic story.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h3 class="mb-4"><strong>FOLK DANCE YOUTUBE VIDEOS</strong></h3>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card featured-card">
+                        <img src="rsc/TALLAYOPM_media/img/tinikling2.jpg" class="card-img-top" alt="Tinikling Video">
+                        <div class="card-body">
+                            <h5 class="card-title">Tinikling Performance</h5>
+                            <p class="card-text">Watch a live Tinikling performance showcasing speed and grace.</p>
+                            <a href="https://youtu.be/_WLfqDMwA_o?si=HVXrGjBIs11IBDqx" target="_blank" class="btn btn-primary">Watch on YouTube</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card featured-card">
+                        <img src="rsc/TALLAYOPM_media/img/singkil2.jpg" class="card-img-top" alt="Singkil Video">
+                        <div class="card-body">
+                            <h5 class="card-title">Singkil Performance</h5>
+                            <p class="card-text">Experience the dramatic storytelling of the Singkil dance.</p>
+                            <a href="https://youtu.be/zkGC001ypBI?si=0yDzp0jliiFItgub" target="_blank" class="btn btn-primary ">Watch on YouTube</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card featured-card">
+                        <img src="rsc/TALLAYOPM_media/img/maglalatik2.jpg" class="card-img-top" alt="Maglalatik Video">
+                        <div class="card-body">
+                            <h5 class="card-title">Maglalatik Dance</h5>
+                            <p class="card-text">See the coconut shell movements in the exciting Maglalatik dance.</p>
+                            <a href="https://youtu.be/wtZtA3OecAI?si=wr-U6BjxAvH6meBq" target="_blank" class="btn btn-primary">Watch on YouTube</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5 bg-light text-center">
+        <div class="container">
+            <h3 class="fw-bold mb-3">FOLK DANCE VIDEO EXAMPLE</h3>
+            <p class="mb-4">Watch a sample performance showcasing the beauty and rhythm of Filipino folk dancing.</p>
+            <div class="video-container mx-auto shadow-lg">
+                <video controls autoplay muted loop>
+                    <source src="rsc/TALLAYOPM_media/vid/singkil.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-center">
+        <div class="container">
+            <p class="mb-0">Developed by Princess Mae Tallayo</p>
+        </div>
+    </footer>
+
+<footer class="py-3 my-4 text-white" style="background-color: gray;">
+  <div class="container">
+    <h1 class="text-center my-5">Explore More</h1>
+      <div class="col-12 my-5 gap-2">
+        <div class="d-flex flex-wrap justify-content-center gap-2">
+          <a class="btn btn-outline-light btn-sm" href="../../../ACOSTA_RL/ACOSTAR fin/MCO Finals/ACOSTAR_index.html">ACOSTA_RL</a>
+          <a class="btn btn-outline-light btn-sm" href="../../../ALMODOVAR_K/MCO Finals_Kobe/ALMODOVAR_index.html">ALMODOVAR_K</a>
+          <a class="btn btn-outline-light btn-sm" href="../../../ANTOLIN_H/MCO Finals/ANTOLINH_index.html">ANTOLIN_H</a>
+          <a class="btn btn-outline-light btn-sm" href="../../../APOLONIO_JJ/MCO Finals/APOLONIOQ_index.html">APOLONIO_JJ</a>
+          <a class="btn btn-outline-light btn-sm" href="../../../ARQUERO_L/Arquero_Mco_Final/ARQUEROL_index.html">ARQUERO_L</a>
+          <a class="btn btn-outline-light btn-sm" href="../../../BAL-UT_J/MCO Finals_Jetro/BAL_UT_index.html">BAL-UT_J</a>
+          <a class="btn btn-outline-light btn-sm" href="../../../BATAO-EY_D/MCO Finals_Dale/BATAO-EY_index.html">BATAO-EY_D</a>
+          <a class="btn btn-outline-light btn-sm" href="../../../BELEN_M/MCO Finals/BELENM_index.html">BELEN_M</a>
+          <a class="btn btn-outline-light btn-sm" href="../../../BERMUDEZ_JH/BERMUDEZ_JH_MCO_FINAL/BERMUDEZJH_index.html">BERMUDEZ_JH</a>
+          <a class="btn btn-outline-light btn-sm" href="../../../CABEL_S/MCO Final/CABEL_index.html">CABEL_S</a>
+          <a class="btn btn-outline-light btn-sm" href="../../../CALVO_EJ/MCO_Finals_Calvo/CALVO_index.html">CALVO_EJ</a>
+          <a class="btn btn-outline-light btn-sm" href="../../../CORDOVA_J/McoFin_Cordova/CORDOVAJ_index.html">CORDOVA_J</a>
+          <a class="btn btn-outline-light btn-sm" href="../../../CORPUZ_C/CORPUZ_MCO_Finals/CORPUZ_index.html">CORPUZ_C</a>
+          <a class="btn btn-outline-light btn-sm" href="../../../DURAN_A/FEATURED WEB PAGE/DURANAC_index.html">DURAN_A</a>
+          <a class="btn btn-outline-light btn-sm" href="../../../GIRAY_J/MCO_FINAL/GIRAYJVindex.html">GIRAY_J</a>
+          <a class="btn btn-outline-light btn-sm" href="../../../HADUCA_PE/HADUCA_P_MCO_Fin/HADUCA_P_index.html">HADUCA_PE</a>
+          <a class="btn btn-outline-light btn-sm" href="../../../LASAN_S/LASANS_MCO_FINALS/LASAN_index.html">LASAN_S</a>
+          <a class="btn btn-outline-light btn-sm" href="../../../LORENZANA_G/LORENZANA_Mco_Finals/LORENZANA_index.html">LORENZANA_G</a>
+          <a class="btn btn-outline-light btn-sm" href="../../../MACABANGON_J/MCO Finals/MAMCABANGON_index.html">MACABANGON_J</a>
+          <a class="btn btn-outline-light btn-sm" href="../../../OCAMPO_NO/MCO Finals/OCAMPONO_index.html">OCAMPO_NO</a>
+          <a class="btn btn-outline-light btn-sm" href="../../../QUIZAAGAN_J/QUIZZAGANM_MCO_FINAL/QUIZZAGAN fin/MCO Finals/Quizzagan_index.html">QUIZAAGAN_J</a>
+          <a class="btn btn-outline-light btn-sm" href="../../../QUIZON_FR/QUIZONF_MCO_Finals/QUIZONF_index.html">QUIZON_FR</a>
+          <a class="btn btn-outline-light btn-sm" href="../../../RAMIREZ_D/MCO Finals Ramirez/index.html">RAMIREZ_D</a>
+          <a class="btn btn-outline-light btn-sm" href="../../../RAMIREZ_L/MCO FINALS/RAMIREZ_index.html">RAMIREZ_L</a>
+          <a class="btn btn-outline-light btn-sm" href="../../../RAMIREZ_JR/RAMIREZJ_MCO_FINALS/RAMIREZ_index.html">RAMIREZ_JR</a>
+          <a class="btn btn-outline-light btn-sm" href="../../../TALLAYO_P/TALLAYOP_MCO_Finals/TALLAYOPM_index.html">TALLAYO_P</a>
+          <a class="btn btn-outline-light btn-sm" href="../../../TUDAYAN_MF/TUDAYANMF_MCO_Finals/TUDAYANMF_index.html">TUDAYAN_MF</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="rsc/js/script.js"></script>
+</body>
+</html>
